@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Racing Sans One', cursive;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+#container{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/mainStyle.jpg);
+    opacity: 0.7;
+    background-size: cover;
+    flex-direction: column;
+}
+header{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+}
+header > h1{
+    display: inline-block;
+    vertical-align: middle;
+    color: white;
+    font-size: 3em;
+    margin-left: 10px;;
+}
+header > nav {
+    margin-left: auto;
+  }
+header > nav > ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+header > nav > ul >li{
+    margin-right: 15px;
+}
+header > nav > ul >li>a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+#login{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+#intro{
+   margin-top: 8%;
+   flex: 50%;
+}
+#intro > h1{
+    font-size: 5em;
+}
+#intro > h1,h2{
+    color: white;
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+#intro > h2{
+    font-size: 7em;
+}
+#login > section{
+    flex:50%;
+    height: 60%;
+    margin-top: 10%;
+    margin-left: 20px;
+ 
+}
+#login > section > div{
+    margin-left: 30px;
+}
+#login > section > h1{
+    text-align: center;
+    margin-top:10px;
+    margin-bottom: 10px;
+    font-size: 2em;
+    color: white;
+}
+#login > section > div{
+    width: 50%;
+    height: 90%;
+    margin: 0 auto;
+    border-radius: 20px;
+    background: white;
+    background-size: cover;
+   
+}
+#login > section> div > h1{
+    text-align: center;
+    margin-top: 20px;
+    color: skyblue;
+    font-weight: bold;
+    font-size: 50px;
+}
+#login-form{
+    margin-top: 40px;
+}
+.text{
+    width: 80%;
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin-top:5px;
+    margin-left:10px;
+    border:1px solid skyblue;
+    border-radius: 5px;
+    padding: 10px;
+    color: black;
+   
+}
+.button{
+    color: white;
+    width:80%;
+    font-size: 14px;
+    background-color: skyblue;
+    margin-bottom: 30px;
+    margin-top:5px;
+    margin-left:20px;
+    padding: 10px;
+    border:none;
+    border-radius: 5px;;
+
+}

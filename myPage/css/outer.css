@@ -1,0 +1,37 @@
+#centerOuter{
+    width: 100%;
+    height: 650px;
+    border: 1px solid rgb(174, 169, 169);
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+}
+#centerOuter > h1{
+    font-size: 2em;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#o1{
+    background-image: url(../images/outer1.jpeg);
+    background-size: cover;
+}
+#o2{
+    background-image: url(../images/outer2.jpeg);
+    background-size: cover;
+}
+#o3{
+    background-image: url(../images/outer3.jpeg);
+    background-size: cover;
+}
+#o4{
+    background-image: url(../images/outer4.jpeg);
+    background-size: cover;
+}
+#o5{
+    background-image: url(../images/outer5.jpeg);
+    background-size: cover;
+}
+#o6{
+    background-image: url(../images/outer6.jpeg);
+    background-size: cover;
+}

@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Racing Sans One', cursive;
+}
+#container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../images/joinStyle.jpg);
+    background-size: cover;
+    opacity: 0.6;
+}
+header{
+    flex: 10%;
+    height: 100%;
+}
+header > h1{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 3.5em;
+    color:white;
+}
+section{
+    flex: 90%;
+    height: 100%;
+}
+#join{
+    width: 500px;
+    height: 550px;
+    margin: 30px auto;
+    border-radius: 20px;
+    background-color: white;
+    
+}
+#join > h1{
+    display: inline-block;
+    color: #1bbc9b;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 40%;
+    margin-bottom: 20px;
+}
+#joinform{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+.jointext{
+    
+    width: 90%;
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin-top:5px;
+    margin-left:10px;
+    border:1px solid #1bbc9b;
+    border-radius: 5px;
+    padding: 10px;
+    color: black;
+}
+.button{
+    color: white;
+    width:90%;
+    font-size: 14px;
+    background-color: #1bbc9b;
+    margin-bottom: 30px;
+    margin-top:5px;
+    margin-left:20px;
+    padding: 10px;
+    border:none;
+    border-radius: 5px;;
+}

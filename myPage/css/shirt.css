@@ -1,0 +1,37 @@
+#centerShirt{
+    width: 100%;
+    height: 650px;
+    border: 1px solid rgb(174, 169, 169);
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+}
+#centerShirt > h1{
+    font-size: 2em;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.tb #sh1{
+    background-image: url(../images/shirt1.jpeg);
+    background-size: cover;
+}
+#sh2{
+    background-image: url(../images/shirt2.jpeg);
+    background-size: cover;
+}
+#sh3{
+    background-image: url(../images/shirt3.jpeg);
+    background-size: cover;
+}
+#sh4{
+    background-image: url(../images/shirt4.jpeg);
+    background-size: cover;
+}
+#sh5{
+    background-image: url(../images/shirt5.jpeg);
+    background-size: cover;
+}
+#sh6{
+    background-image: url(../images/shirt6.jpeg);
+    background-size: cover;
+}
